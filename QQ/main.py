@@ -1,4 +1,4 @@
-from send_msg import send_msg, get_id
+from send_msg import send_msg
 from receive import rev_msg
 import random
 
@@ -32,7 +32,16 @@ def main():
             # print(rev) #需要功能自己DIY
             if rev["message_type"] == "private":  # 私聊
                 qq = rev['sender']['user_id']
-                if '在吗' in rev['raw_message']:
+                if qq == 1679194340 or qq == 1679194340:
+                    try:
+                        import music
+                        li, li1, li2, err = music.get_music_id(__song=rev['raw_message'])
+                        if err == 1:
+                            send_msg({'msg_type': 'private', 'number': qq, 'msg': '【{}】要付费哦!无法为您找到声源\u000a用【伴你成长】代替啦！'.format(rev['raw_message'])})
+                        send_msg({'msg_type': 'private', 'number': qq, 'msg': msg_str.format(li, li1, li2)})
+                    except:
+                        send_msg({'msg_type': 'private', 'number': qq, 'msg': '没有找到相关音乐'})
+                elif '在吗' in rev['raw_message']:
                     send_msg({'msg_type': 'private', 'number': qq, 'msg': '在呢'})
                     send_msg({'msg_type': 'private', 'number': qq, 'msg': '[CQ:face,id=317,type=sticker]'})
                 elif '随机音乐' in rev['raw_message']:
@@ -45,12 +54,12 @@ def main():
                     # send_msg({'msg_type': 'private', 'number': qq, 'msg': '在呢,{}\t可以\n1.随机音乐\n'})
             elif rev["message_type"] == "group":  # 群聊
                 group = rev['group_id']
-                if group == 735890247:
+                if group == 735890247 or group == 735890247:
                     try:
                         import music
                         li, li1, li2, err = music.get_music_id(__song=rev['raw_message'])
                         if err == 1:
-                            send_msg({'msg_type': 'group', 'number': group, 'msg': '【{}】要付费哦!\u000a用【伴你成长】代替啦！'.format(rev['raw_message'])})
+                            send_msg({'msg_type': 'group', 'number': group, 'msg': '【{}】要付费哦!无法为您找到声源\u000a用【伴你成长】代替啦！'.format(rev['raw_message'])})
                         send_msg({'msg_type': 'group', 'number': group, 'msg': msg_str.format(li, li1, li2)})
                     except:
                         send_msg({'msg_type': 'group', 'number': group, 'msg': '没有找到相关音乐'})
