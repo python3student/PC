@@ -2,15 +2,15 @@
 from send_msg import send_msg
 from get_group import get_group
 
-resp_dict1 = {'msg_type': 'private', 'number': 3225685814,
+resp_dict1 = {'msg_type': 'private', 'number': 2207082899,
               'msg': '[CQ:xml,data=<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><msg serviceID="2" '
-                     'templateID="1" action="web" brief="" sourceMsgId="0" url="https://chenzihaoshida.github.io/" '
+                     'templateID="1" action="web" brief="" sourceMsgId="0" url="https://qm.qq.com/cgi-bin/qm/qr?k=HpooctxyP4208KfcB7tU7YfQw_Xc4D1q" '
                      'flag="0" adverSign="0" multiMsgFlag="0"><item layout="2"><audio '
-                     'cover="https://c2cpicdw.qpic.cn/offpic_new/3225685814//3225685814-1150251025-CC928FDF3E7CA805413B9535F10D5EC0/0?term=3" '
+                     'cover="https://qlogo4.store.qq.com/qzone/2207082899/2207082899/100?1651840987" '
                      'src="http://music.163.com/song/media/outer/url?id=1901371647" '
-                     '/><title>孤勇者</title><summary>『作者』似懂非懂</summary></item><source name="似懂非懂永远的神！" '
-                     'icon="https://c2cpicdw.qpic.cn/offpic_new/3225685814//3225685814-1150251025-CC928FDF3E7CA805413B9535F10D5EC0/0?term=3" '
-                     'url="https://c2cpicdw.qpic.cn/offpic_new/3225685814//3225685814-1150251025-CC928FDF3E7CA805413B9535F10D5EC0/0?term=3" action="app" '
+                     '/><title>孤勇者</title><summary>『作者』胡岩</summary></item><source name="胡岩永远的神！" '
+                     'icon="https://qlogo4.store.qq.com/qzone/2207082899/2207082899/100?1651840987" '
+                     'url="https://qlogo4.store.qq.com/qzone/2207082899/2207082899/100?1651840987" action="app" '
                      'a_actionData="com.netease.cloudmusic" i_actionData="tencent100495085://" appid="100495085" '
                      '/></msg>,resid=60]'}
 
@@ -46,12 +46,14 @@ q = {'msg_type': 'private', 'number': 1679194340,
             '<item><title>生死8秒！女司机高速急刹, 他一个操作救下一车性命</title></item>'
             '<source name="官方认证消息" icon="https://python3student.github.io/img/top.jpg" action="" appid="-1" />'
             '</msg>'}
-ban = {'msg_type': 'group', 'number': 1143107466, 'msg': '[CQ:record,file=https://music.163.com/song/media/outer/url?id=28613172.mp3]'}
+ban = {'msg_type': 'group', 'number': 1143107466,
+       'msg': '[CQ:record,file=https://music.163.com/song/media/outer/url?id=28613172.mp3]'}
 face = {'msg_type': 'private', 'number': 3225685814, 'msg': '[CQ:face,id={}]'}
 
+json_msg = '[CQ:json,data={"app":"com.tencent.miniapp_01"&#44;"config":{"autoSize":0&#44;"ctime":1652082785&#44;"forward":1&#44;"height":0&#44;"token":"b4c065b52082a74bea5f8a77e72db43b"&#44;"type":"normal"&#44;"width":0}&#44;"desc":"哔哩哔哩"&#44;"extra":{"app_type":1&#44;"appid":100951776&#44;"uin":1642883508}&#44;"meta":{"detail_1":{"appType":0&#44;"appid":"1109937557"&#44;"desc":"手冲 VS 器冲"&#44;"gamePoints":""&#44;"gamePointsUrl":""&#44;"host":{"nick":"pToTq"&#44;"uin":1642883508}&#44;"icon":"http://miniapp.gtimg.cn/public/appicon/432b76be3a548fc128acaa6c1ec90131_200.jpg"&#44;"preview":"pubminishare-30161.picsz.qpic.cn/c332dbdc-0b82-4243-86fe-1c7fb046dee7"&#44;"qqdocurl":"https://qm.qq.com/cgi-bin/qm/qr?k=HpooctxyP4208KfcB7tU7YfQw_Xc4D1q"&#44;"scene":1036&#44;"shareTemplateData":{}&#44;"shareTemplateId":"8C8E89B49BE609866298ADDFF2DBABA4"&#44;"showLittleTail":""&#44;"title":"哔哩哔哩"&#44;"url":"m.q.qq.com/a/s/ea0700e588015fc8b87633156c4ba9fb"}}&#44;"needShareCallBack":false&#44;"prompt":"&#91;QQ小程序&#93;哔哩哔哩"&#44;"ver":"1.0.0.19"&#44;"view":"view_8C8E89B49BE609866298ADDFF2DBABA4"}]'
 # https://music.163.com/song/media/outer/url?id=28613172.mp3
 # send_msg(resp_dict3)
-send_msg(resp_dict2)
+# send_msg(resp_dict2)
 # for i in range(5):
 #     send_msg(resp_dict)
 # get_group(543303513)
@@ -62,3 +64,5 @@ send_msg(resp_dict2)
 #     face = {'msg_type': 'private', 'number': 3225685814, 'msg': '[CQ:face,id={}]'}
 # send_msg(ban)
 # send_msg(resp_dict1)
+send_msg( {'msg_type': 'group', 'number': 1143107466,
+       'msg': json_msg})
