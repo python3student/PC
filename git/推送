@@ -1,0 +1,12 @@
+ git push -u PCS +master
+
+Enumerating objects: 3536, done.
+Counting objects: 100% (3536/3536), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3451/3451), done.
+Writing objects: 100% (3536/3536), 276.01 MiB | 1.50 MiB/s, done.
+Total 3536 (delta 173), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (173/173), done.
+To github.com:python3student/PC.git
+ + d310ada...7acb2eb master -> master (forced update)
+branch 'master' set up to track 'PCS/master'.

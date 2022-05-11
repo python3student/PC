@@ -34,7 +34,9 @@ def main():
             # print(rev) #需要功能自己DIY
             if rev["message_type"] == "private":  # 私聊
                 qq = rev['sender']['user_id']
-                if qq == 1679194340 or qq == 1679194340:
+                if qq == 2845404905 or qq == 3439453420:
+                    pass
+                elif qq == 1679194340 or qq == 1679194340:
                     import music2
                     sonng_msg = music2.music_search(rev['raw_message'])
                     send_msg({'msg_type': 'group', 'number': qq, 'msg': sonng_msg})

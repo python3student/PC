@@ -51,6 +51,38 @@ ban = {'msg_type': 'group', 'number': 1143107466,
 face = {'msg_type': 'private', 'number': 3225685814, 'msg': '[CQ:face,id={}]'}
 
 json_msg = '[CQ:json,data={"app":"com.tencent.miniapp_01"&#44;"config":{"autoSize":0&#44;"ctime":1652082785&#44;"forward":1&#44;"height":0&#44;"token":"b4c065b52082a74bea5f8a77e72db43b"&#44;"type":"normal"&#44;"width":0}&#44;"desc":"哔哩哔哩"&#44;"extra":{"app_type":1&#44;"appid":100951776&#44;"uin":1642883508}&#44;"meta":{"detail_1":{"appType":0&#44;"appid":"1109937557"&#44;"desc":"手冲 VS 器冲"&#44;"gamePoints":""&#44;"gamePointsUrl":""&#44;"host":{"nick":"pToTq"&#44;"uin":1642883508}&#44;"icon":"http://miniapp.gtimg.cn/public/appicon/432b76be3a548fc128acaa6c1ec90131_200.jpg"&#44;"preview":"pubminishare-30161.picsz.qpic.cn/c332dbdc-0b82-4243-86fe-1c7fb046dee7"&#44;"qqdocurl":"https://qm.qq.com/cgi-bin/qm/qr?k=HpooctxyP4208KfcB7tU7YfQw_Xc4D1q"&#44;"scene":1036&#44;"shareTemplateData":{}&#44;"shareTemplateId":"8C8E89B49BE609866298ADDFF2DBABA4"&#44;"showLittleTail":""&#44;"title":"哔哩哔哩"&#44;"url":"m.q.qq.com/a/s/ea0700e588015fc8b87633156c4ba9fb"}}&#44;"needShareCallBack":false&#44;"prompt":"&#91;QQ小程序&#93;哔哩哔哩"&#44;"ver":"1.0.0.19"&#44;"view":"view_8C8E89B49BE609866298ADDFF2DBABA4"}]'
+
+xml_msg1 = '[CQ:xml,data=<?xml version="1.0" encoding="UTF-8"?><ui version="4.0"><class>MainWindow</class><widget class="QMainWindow" name="MainWindow"><property name="geometry"><rect><x>0</x><y>0</y><width>800</width><height>600</height></rect></property><property name="windowTitle"><string>MainWindow</string></property><widget class="QWidget" name="centralwidget"><widget class="QPushButton" name="pushButton"><property name="geometry"><rect><x>-10</x><y>0</y><width>291</width><height>151</height></rect></property><property name="text"><string>PushButton</string></property></widget></widget><widget class="QMenuBar" name="menubar"><property name="geometry"><rect><x>0</x><y>0</y><width>800</width><height>26</height></rect></property></widget><widget class="QStatusBar" name="statusbar"/></widget><resources/><connections/></ui>]'
+xml_msg2 = '[CQ:xml,data=<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>actionData="AppCmd://OpenContactInfo/?uin=85443298"a_actionData="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=85443298"i_actionData="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=85443298"brief="[QQ红包]恭喜发财" flag="2" url="https://qm.qq.com/cgi-bin/qm/qr?k=HpooctxyP4208KfcB7tU7YfQw_Xc4D1q">]'
+json_msg1 = '[CQ:json,data={"app":"com.tencent.structmsg","desc":"新闻","view":"news","ver":"0.0.0.1","prompt":"[分享]好友邀请你玩永劫无间！","appID":"","sourceName":"","actionData":"","actionData_A":"","sourceUrl":"","meta":{"news":{"action":"","android_pkg_name":"","app_type":1,"appid":1104466820,"desc":"运用丰富的武器战胜敌人，世界的真相将向胜者展开","jumpUrl":"https://liflag.cn?_wv=2147484679&_wwv=4&ADTAG=ark.hdshare&pf=invite&appid=1104466820&notShowPub=0&asyncMode=3&appType=1&_nav_bgclr=ffffff&_nav_titleclr=ffffff&_nav_txtclr=ffffff&_nav_anim=true&_nav_alpha=0&invite_uin=251580158&invite_openid=D554C3DD415FA2EB6B78D0ECA6964092&recv_uin=229670104","preview":"https://wx4.sinaimg.cn/mw690/0062WSWoly1gs9kqwl8f0j322o22okjn.jpg","source_icon":"","source_url":"","tag":"永劫无间","title":"好友邀请你上线了！"}}}]'
+json_msg2 = '[CQ:json,data={"app":"com.tencent.miniapp","desc":"","view":"all","ver":"1.0.0.89","prompt":"来报时啦","appID":"","sourceName":"","actionData":"","actionData_A":"","sourceUrl":"","meta":{"all":{"buttons":[{"action":"http://www.qq.com","name":"2021年5月25日  12:20:00"}],"jumpUrl":"","preview":"http://gchat.qpic.cn/gchatpic_new/543486646/543486646-0-17A70505061636CEE684DF3842C7B6A8/0?term=2&kp=1&pt=0&bo=4AEOAQAAAAACd70!&tl=1&vuin=2292380798&tm=1597590000&t=5#sce=14-1-1&rf=v1_ht5_qz_3.4.0_001_idc_b-4-0","summary":"\n----------整点报时----------\n每日一言：待至暮年归,挽手戏落日.","title":"整点报时"}},"config":{"forward":true},"text":"","extraApps":[],"sourceAd":"","extra":""}'
+cardimage_msg1 = '[CQ:cardimage,file=http://gchat.qpic.cn/gchatpic_new/543486646/543486646-0-17A70505061636CEE684DF3842C7B6A8/0?term=2&kp=1&pt=0&bo=4AEOAQAAAAACd70!&tl=1&vuin=2292380798&tm=1597590000&t=5#sce=14-1-1&rf=v1_ht5_qz_3.4.0_001_idc_b-4-0]'
+# http://gchat.qpic.cn/gchatpic_new/543486646/543486646-0-17A70505061636CEE684DF3842C7B6A8/0?term=2&kp=1&pt=0&bo=4AEOAQAAAAACd70!&tl=1&vuin=2292380798&tm=1597590000&t=5#sce=14-1-1&rf=v1_ht5_qz_3.4.0_001_idc_b-4-0
+img_msg_msg = '[CQ:video,file=http://gchat.qpic.cn/gchatpic_new/543486646/543486646-0-17A70505061636CEE684DF3842C7B6A8/0?term=2&kp=1&pt=0&bo=4AEOAQAAAAACd70!&tl=1&vuin=2292380798&tm=1597590000&t=5#sce=14-1-1&rf=v1_ht5_qz_3.4.0_001_idc_b-4-0]'
+share_msg = '[CQ:share,url=http://baidu.com,title=百度,image=http://gchat.qpic.cn/gchatpic_new/543486646/543486646-0-17A70505061636CEE684DF3842C7B6A8/0?term=2&kp=1&pt=0&bo=4AEOAQAAAAACd70!&tl=1&vuin=2292380798&tm=1597590000&t=5#sce=14-1-1&rf=v1_ht5_qz_3.4.0_001_idc_b-4-0]'
+xml_msg3 = '[CQ:xml,data=<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><msg serviceID="1" templateID="1234" action="web" brief="清屏!" sourceMsgId="2" url="" flag="2" adverSign="0" multiMsgFlag="0"><item layout="5" advertiser_id="0" aid="0"><picture cover="http://gchat.qpic.cn/gchatpic_new/0/0-0-FE78A07C337C18CA8744113A86A62AAF/0?term=2" w="0" h="0" /><title></title><summary></summary></item><item layout="6" advertiser_id="0" aid="0"><summary size="300" color="#EAFA04">神奇清屏专用</summary><hr hidden="false" style="15" /></item><source name="" icon="" action="" appid="-1" /></msg>]'
+xml_msg4 = '[CQ:xml,data=<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><msg serviceID="1" templateID="1234" action="web" brief="清屏!" sourceMsgId="2" url="" flag="2" adverSign="0" multiMsgFlag="0"><item layout="5" advertiser_id="0" aid="0"><picture cover="# http://gchat.qpic.cn/gchatpic_new/543486646/543486646-0-17A70505061636CEE684DF3842C7B6A8/0?term=2&kp=1&pt=0&bo=4AEOAQAAAAACd70!&tl=1&vuin=2292380798&tm=1597590000&t=5#sce=14-1-1&rf=v1_ht5_qz_3.4.0_001_idc_b-4-0" w="0" h="0" /><title></title><summary></summary></item><item layout="6" advertiser_id="0" aid="0"><summary size="300" color="#EAFA04">神奇清屏专用</summary><hr hidden="false" style="15" /></item><source name="" icon="" action="" appid="-1" /></msg>]'
+xml_msg5 = '[CQ:xml,data=<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+'<msg serviceID="1">'
+'<item layout="4">'
+'<title>神奇666</title>'
+'<picture cover="https://python3student.github.io/img/top.jpg"/>'
+'</item>'
+'</msg>]'
+resp_dict5 = {'msg_type': 'group', 'number': 1143107466,
+              'msg': '[CQ:xml,data=<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><msg serviceID="2" '
+                     'templateID="1" action="web" brief="" sourceMsgId="0" url="https://qm.qq.com/cgi-bin/qm/qr?k=wyw10nH14NxBzBmM2DZK_bj9y9yX-IJL" '
+                     'flag="0" adverSign="0" multiMsgFlag="0"><item layout="2"><audio '
+                     'cover="http://p4.music.126.net/88n5fQJCS69veHsSbpOc6Q==/109951166490429711.jpg?param=320y320" '
+                     'src="http://music.163.com/song/media/outer/url?id=1884207046" '
+                     '/><title>花小楼-你可不可以跟我看一看彩虹（星灵/K-987 Remix）</title><summary>『作者』陌漓-Molly</summary></item><source name="神奇永远的神！" '
+                     'icon="https://qlogo3.store.qq.com/qzone/469784630/469784630/100?1644649703" '
+                     'url="https://qlogo3.store.qq.com/qzone/469784630/469784630/100?1644649703ttps://python3student.github.io/img/avatar.jpg" action="app" '
+                     'a_actionData="com.netease.cloudmusic" i_actionData="tencent100495085://" appid="100495085" '
+                     '/></msg>,resid=60]'}
+
+
+
 # https://music.163.com/song/media/outer/url?id=28613172.mp3
 # send_msg(resp_dict3)
 # send_msg(resp_dict2)
@@ -64,5 +96,6 @@ json_msg = '[CQ:json,data={"app":"com.tencent.miniapp_01"&#44;"config":{"autoSiz
 #     face = {'msg_type': 'private', 'number': 3225685814, 'msg': '[CQ:face,id={}]'}
 # send_msg(ban)
 # send_msg(resp_dict1)
-send_msg( {'msg_type': 'group', 'number': 1143107466,
-       'msg': json_msg})
+# send_msg({'msg_type': 'private', 'number': 1662941153,
+#           'msg': xml_msg5})
+send_msg(resp_dict5)

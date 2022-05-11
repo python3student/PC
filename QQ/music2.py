@@ -29,7 +29,7 @@ def music_search(song):
     data = {
         'musicName': song,
         'type': 'netease',
-        'number': 1
+        'number': 2
     }
     music = requests.post(url=url, headers=headers, data=data).json()
 
@@ -51,4 +51,4 @@ def music_search(song):
     return [msg, music_url, music_name, music_au]
 
 # '伴你成长'    '孤勇者'   '你从未离去'     '森林狂想曲'
-# music_search('森林狂想曲')
+# music_search('你可不可以跟我一起看彩虹')

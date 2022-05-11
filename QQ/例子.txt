@@ -99,3 +99,19 @@
 https://b23.tv/pgPs0pE?share_medium=android&amp;share_source=qq&amp;bbid=XY07A1F0D5AD2FF00771E997C25A66B45CB86&amp;ts=1652082777305
 https://www.bilibili.com/video/BV1R5411U71Q?p=1&share_medium=android&share_plat=android&share_session_id=cd05bba6-b57c-450a-9f00-5ffb2cdb7aa6&share_source=QQ&share_tag=s_i&timestamp=1652082777&unique_k=pgPs0pE#44;%22scene%22:1036&#44;%22shareTemplateData
 https://www.bilibili.com/video/BV1R5411U71Q?spm_id_from=333.999.0.0
+
+
+卡片代码分享
+{"app":"com.tencent.mobileqq.reading","desc":"","view":"singleImg","ver":"1.0.0.70","prompt":"百元大钞","appID":"","sourceName":"","actionData":"","actionData_A":"","sourceUrl":"","meta":{"singleImg":{"mainImage":"https:\/\/gchat.qpic.cn\/gchatpic_new\/3020005669\/916530575-2949639428-6E45D21EADE33511C565E25AB432AB59\/0?term=2","mainUrl":""}},"text":"","extraApps":[],"sourceAd":""}
+
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+actionData="AppCmd://OpenContactInfo/?uin=85443298"
+a_actionData="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=85443298"
+i_actionData="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=85443298"
+brief="[QQ红包]恭喜发财" flag="2" url="">
+[CQ:xml,data=<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><msg serviceID="95" templateID="1" action="plugin" actionData="AppCmd://OpenContactInfo/?uin＝" a_actionData="mqqapi://card/show_pslcard?src_type=internal&amp;amp;source=sharecard&amp;amp;version=1&amp;amp;uin=2584397341" i_actionData="mqqapi://card/show_pslcard?src_type=internal&amp;amp;source=sharecard&amp;amp;version=1&amp;amp;uin=318016669" brief="腾讯官方认证脑婆账号" sourceMsgId="0" url="" flag="2" adverSign="0" multiMsgFlag="0"><item layout="0" mode="1"><summary> 脑婆认证</summary><hr hidden="false" style="0" /></item><item layout="2" mode="1"><picture cover="mqqapi://card/show_pslcard?src_type=internal&amp;amp;source=sharecard&amp;amp;version=1&amp;amp;uin=318016669" w="0" h="0" /><title color="#FFD250">⁣职业脑婆</title><summary color="#FF4384">腾讯官方认证脑婆</summary></item><source name="官方认证" icon="http://ctc.qzs.qq.com/ac/qzone_v5/client/auth_icon.png" action="" appid="-1" /></msg>,resid=95]
+
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><msg serviceID="1" templateID="1" action="plugin" actionData="AppCmd://OpenContactInfo/?uin＝" a_actionData="mqqapi://card/show_pslcard?src_type=internal&amp;source=sharecard&amp;version=1&amp;uin=2731162774" i_actionData="mqqapi://card/show_pslcard?src_type=internal&amp;source=sharecard&amp;version=1&amp;uin=2731162774" brief="腾讯官方认证账号" sourceMsgId="0" url="" flag="2" adverSign="0" multiMsgFlag="0"><item layout="0" mode="1" advertiser_id="0" aid="0"><summary> 王者荣耀职业认证</summary><hr hidden="false" style="0" /></item><item layout="2" mode="1" advertiser_id="0" aid="0"><picture cover="mqqapi://card/show_pslcard?src_type=internal&amp;source=sharecard&amp;version=1&amp;uin=2731162774" w="0" h="0" /><title color="#FFD250">⁣KPL职业选手</title><summary color="#FF4384">腾讯官方认证选手</summary></item><source name="官方认证" icon="http://ctc.qzs.qq.com/ac/qzone_v5/client/auth_icon.png" action="web" appid="-1" /></msg>
+
+卖瓜
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><msg serviceID="1" templateID="-1" action="web" brief="前排卖瓜" sourceMsgId="0" url="" flag="3" adverSign="0" multiMsgFlag="0"><item layout="1" bg="-16720521" advertiser_id="0" aid="0"><button size="80">表情</button><button /><button></button><button /><tr /></item><item layout="1" advertiser_id="0" aid="0"><summary color="#000000" style="5">原价:19.9斤</summary></item><item layout="0" advertiser_id="0" aid="0"><summary size="50" color="#ff0000">现价:9.9斤</summary><hr hidden="false" style="0" /></item><source name="" icon="" action="" appid="-1" /></msg>
