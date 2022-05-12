@@ -115,3 +115,7 @@ brief="[QQ红包]恭喜发财" flag="2" url="">
 
 卖瓜
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?><msg serviceID="1" templateID="-1" action="web" brief="前排卖瓜" sourceMsgId="0" url="" flag="3" adverSign="0" multiMsgFlag="0"><item layout="1" bg="-16720521" advertiser_id="0" aid="0"><button size="80">表情</button><button /><button></button><button /><tr /></item><item layout="1" advertiser_id="0" aid="0"><summary color="#000000" style="5">原价:19.9斤</summary></item><item layout="0" advertiser_id="0" aid="0"><summary size="50" color="#ff0000">现价:9.9斤</summary><hr hidden="false" style="0" /></item><source name="" icon="" action="" appid="-1" /></msg>
+
+[CQ:xml,data=<?xml version='1.0' encoding='UTF-8' ?><msg serviceID="104" templateID="1" brief="大家好，我是嘿嘿嘿。来自密歇根安娜堡的狮子座男一枚~"><item layout="2"><picture cover="" /><title>新人入群</title></item><source /></msg>,resid=104]
+
+
