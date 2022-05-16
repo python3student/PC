@@ -93,9 +93,9 @@ resp_dict5 = {'msg_type': 'group', 'number': 1143107466,
 # for i in range(400):
 #     face['msg'] = face['msg'].format(i)
 #     send_msg(face)
-#     face = {'msg_type': 'private', 'number': 3225685814, 'msg': '[CQ:face,id={}]'}
+#     face = {'msg_type': 'group', 'number': 424714996, 'msg': '[CQ:face,id={}]'}
 # send_msg(ban)
 # send_msg(resp_dict1)
 # send_msg({'msg_type': 'private', 'number': 1662941153,
 #           'msg': xml_msg5})
-send_msg(resp_dict5)
+# send_msg(resp_dict5)

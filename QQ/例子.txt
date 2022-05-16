@@ -118,4 +118,5 @@ brief="[QQ红包]恭喜发财" flag="2" url="">
 
 [CQ:xml,data=<?xml version='1.0' encoding='UTF-8' ?><msg serviceID="104" templateID="1" brief="大家好，我是嘿嘿嘿。来自密歇根安娜堡的狮子座男一枚~"><item layout="2"><picture cover="" /><title>新人入群</title></item><source /></msg>,resid=104]
 
+{'file': {'busid': 102, 'id': '/04e8a282-d444-11ec-84f8-5452007b5d9f', 'name': 'FA-重制版_1.5.5.zip', 'size': 10178236, 'url': 'http://180.110.193.188/ftn_handler/1748b9cb3a76ea30559a4746abf523e17225e82220c4735cc10b15bd24a3d73acba3099d7c060e2abe354ed85c6111a7f43c192b2544e8d17c4b6499faed32bc/?fname=2f30346538613238322d643434342d313165632d383466382d353435323030376235643966'}, 'group_id': 549619929, 'notice_type': 'group_upload', 'post_type': 'notice', 'self_id': 469784630, 'time': 1652614932, 'user_id': 2534809901}
 

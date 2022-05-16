@@ -63,7 +63,7 @@ def main():
                 group = rev['group_id']
                 if '时间' in rev["raw_message"]:
                     import datetime
-                    nn = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    nn = datetime.datetime.now().strftime("%Y-%m-%d (%A) %H:%M:%S")
                     send_msg({'msg_type': 'group', 'number': group, 'msg': nn})
 
                 # if group == 762093001 or group == 762093001:
